@@ -1,0 +1,32 @@
+# LaTeX auxiliary and log files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Bibliography files
+*.bbl
+*.blg
+*.bib.bak
+
+# Temporary files
+*.tmp
+*.backup
+*.sav
+
+# PDF output files (optional, remove if you want to track final PDFs)
+*.pdf
+
+# Editor-specific files
+*.swp  # Vim swap files
+*.bak  # Backup files
+*~      # Temporary files
+
+# LaTeX compilation directory (if using latexmk)
+latexmkrc
+build/
