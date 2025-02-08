@@ -1,11 +1,11 @@
 OUTDIR = build
 
-all: 
+all:
 	mkdir -p $(OUTDIR)
-	pdflatex -output-directory=$(OUTDIR) book.tex
-	bibtex $(OUTDIR)/book
-	pdflatex -output-directory=$(OUTDIR) book.tex
-	pdflatex -output-directory=$(OUTDIR) book.tex
+	xelatex -output-directory=$(OUTDIR) book.tex
+#Uncomment below when needed
+#	bibtex $(OUTDIR)/book
+	xelatex -output-directory=$(OUTDIR) book.tex	
 
 clean:
 	rm -rf $(OUTDIR)
