@@ -23,3 +23,7 @@ sudo apt install make
 ```
 
 If you enconter any problem please open an issue
+
+
+He it is who book © 2025 by Milad Amirzadeh is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 
+
