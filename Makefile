@@ -5,7 +5,8 @@ all:
 	xelatex -output-directory=$(OUTDIR) book.tex
 #Uncomment below when needed
 #	bibtex $(OUTDIR)/book
-	xelatex -output-directory=$(OUTDIR) book.tex	
+	xelatex -output-directory=$(OUTDIR) book.tex
+	open build/book.pdf	
 
 clean:
 	rm -rf $(OUTDIR)
