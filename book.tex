@@ -1,4 +1,10 @@
-\documentclass[a4paper,12pt]{book}
+\documentclass[a4paper,12pt,openany]{book}
+\usepackage[a4paper,margin=1.5in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage} % Page number on outer side
+\fancyhead[RE,LO]{\nouppercase{\leftmark}} % Chapter title
 \usepackage{endnotes}
 \let\footnote=\endnote
 \usepackage{fontspec}
@@ -14,7 +20,6 @@
 
 \title{He it is who}
 \author{Milad Amirzadeh}
-\date{\today}
 
 \begin{document}
 \maketitle
