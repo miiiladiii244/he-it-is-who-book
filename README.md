@@ -1,5 +1,3 @@
-A book which contains some verses of Quran-al-Karim
-
 Build command:
 
 ```bash
